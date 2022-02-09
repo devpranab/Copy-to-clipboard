@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.card-img img{
+width: 300px;
+height: 160px;
+}
+.cb-card{
+    border-radius: 5px;
+    width: 300px;
+    margin: 0 auto;
+    border: 1px solid black;
+    box-shadow: 3px 4px 30px 0 rgba(98, 120, 223,.2);
+}
+.card-details{
+    padding: 6px;
+        display: flex;
+}
+.card-info{
+    margin-left: 75px;
+}
+input:focus{
+    bottom: none;
+    outline: none;
+}
+input::selection{
+    background: none;
+}
+
